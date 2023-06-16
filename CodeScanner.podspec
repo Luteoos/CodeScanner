@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.source_files = 'Sources/CodeScanner/*.{h,m,swift}'
-  s.resources = 'Sources/CodeScanner/Resources/*.xcassets'
+  s.resources = 'Sources/CodeScanner/Resources/**/*.{storyboard,xib,xcassets,json,png,pdf}'
 end
