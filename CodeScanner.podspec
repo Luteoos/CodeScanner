@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.source_files = 'Sources/CodeScanner/*.{h,m,swift}'
-  s.resource_bundles = {
-    'CodeScanner' => ['Sources/CodeScanner/Resources/**/*.{storyboard,xib,xcassets,json,png,pdf}'] }
+  # s.resource_bundles = {
+  #   'CodeScanner' => ['Sources/CodeScanner/Resources/**/*.{storyboard,xib,xcassets,json,png,pdf}'] }
 end
