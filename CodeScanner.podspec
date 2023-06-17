@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CodeScanner'
-  s.version          = '2.3.3'
+  s.version          = '2.3.5'
   s.summary          = 'CodeScanner'
 
   s.homepage         = 'https://github.com/Luteoos/CodeScanner'
@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.source_files = 'Sources/CodeScanner/*.{h,m,swift}'
-  s.resources = 'Sources/CodeScanner/Resources/**/*.{storyboard,xib,xcassets,json,png,pdf}'
+  s.resource_bundles = {
+    'CodeScanner' => ['Sources/CodeScanner/Resources/**/*.{storyboard,xib,xcassets,json,png,pdf}'] }
 end
